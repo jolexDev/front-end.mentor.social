@@ -1,0 +1,88 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 0.875rem;
+  font-family: "Inter", sans-serif;
+  background: hsl(0, 0%, 8%);
+  color: hsl(75, 94%, 57%);
+}
+
+/* ## Colors
+
+### Primary
+
+- Green: hsl(75, 94%, 57%)
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+- Grey: hsl(0, 0%, 20%)
+- Dark Grey: hsl(0, 0%, 12%)
+- Off Black: hsl(0, 0%, 8%) */
+
+section {
+  min-height: 900px;
+  display: flex;
+  align-items: center;
+}
+
+img {
+  max-width: 30%;
+  border-radius: 3em;
+  border-color: transparent;
+}
+
+h2 {
+  color: white;
+}
+
+.card {
+  margin: 0 auto;
+  width: 95%;
+  background: hsl(0, 0%, 12%);
+  text-align: center;
+  padding: 1.8em;
+  border-radius: 1em;
+}
+
+.card_Text {
+  color: white;
+  font-weight: ;
+  font-size: 0.9rem;
+}
+
+.card_Socials {
+  display: block;
+  text-decoration: none;
+  color: white;
+  background: hsl(0, 0%, 20%);
+  padding: 1.3em 0;
+  margin-bottom: 1em;
+  border-radius: 0.6em;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.card_Location {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+@media (min-width: 370px) {
+  img {
+    border-radius: 3.5em;
+    width: 25%;
+  }
+
+  .card {
+    width: 390px;
+  }
+}
