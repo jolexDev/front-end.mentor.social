@@ -68,6 +68,12 @@ h2 {
   border-radius: 0.6em;
   font-weight: 700;
   cursor: pointer;
+  transition: 0.1s background, color;
+}
+
+.card_Socials:hover {
+  background: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 20%);
 }
 
 .card_Location {
