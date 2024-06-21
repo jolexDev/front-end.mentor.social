@@ -41,6 +41,11 @@ img {
   border-color: transparent;
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+}
+
 h2 {
   color: white;
   margin-bottom: -0.4em;
